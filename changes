@@ -19,7 +19,6 @@ Device Drivers >
 		Wireless LAN >
 			+ Realtek 8187 and 8187B USB support
 			+ Atheros 802.11n wireless cards support
-			+ Atheros HTC based wireless cards support
 			+ Linux Community AR9170 802.11n USB support
 			+ Atheros AR5523 wireless driver support
 			+ Atheros 802.11ac wireless cards support
