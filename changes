@@ -1,0 +1,47 @@
+General setup >
+	+ "-Zaharchenko" Local version
+	+ "android" Default hostname
+	+ System V IPC
+
+Enable loadable module support >
+	- Module versioning support
+	
+Networking support >
+	Wireless >
+		+ Generic IEEE 802.11 Networking Stack (mac80211)
+
+Device Drivers >
+	Network device support >
+		USB Network Adapters >
+			+ USB RTL8150 based ethernet device support
+			+ Realtek RTL8152/RTL8153 Based USB Ethernet Adapters
+
+		Wireless LAN >
+			+ Realtek 8187 and 8187B USB support
+			+ Atheros 802.11n wireless cards support
+			+ Atheros HTC based wireless cards support
+			+ Linux Community AR9170 802.11n USB support
+			+ Atheros AR5523 wireless driver support
+			+ Atheros 802.11ac wireless cards support
+
+			Ralink driver support >
+				+ Ralink rt2500 (USB) support
+				+ Ralink rt2501/rt73 (USB) support
+				+ Ralink rt27xx/rt28xx/rt30xx (USB) support
+				+ rt2800usb - Include support for rt33xx devices
+				+ rt2800usb - Include support for rt35xx devices
+				+ rt2800usb - Include support for rt53xx devices
+				+ rt2800usb - Include support for rt55xx devices
+				+ rt2800usb - Include support for unknown (USB) devices
+
+	USB support >
+		+ USB Modem (CDC ACM) support
+
+
+
+
+# kernel/fs/sync.c
+21: + bool fsync_enabled = false;
+
+# kernel/drivers/staging/qcacld-3.0/Kbuild
+2268: - -Werror\
