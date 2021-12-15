@@ -37,7 +37,8 @@ Device Drivers >
 		+ USB Modem (CDC ACM) support
 
 
-
+# kernel/Makefile
+736: + KBUILD_CFLAGS += -O3
 
 # kernel/fs/sync.c
 21: + bool fsync_enabled = false;
