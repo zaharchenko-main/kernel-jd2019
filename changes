@@ -1,6 +1,6 @@
 General setup >
-	+ "-Zaharchenko" Local version
-	+ "android" Default hostname
+	+ "-zinferno" Local version
+	+ "zinferno" Default hostname
 	+ System V IPC
 
 Enable loadable module support >
